@@ -1,7 +1,7 @@
 {
     "name": "mcrud/crud",
     "type": "library",
-    "license": "MIt",
+    "license": "MIT",
     "authors": [
         {
             "name": "mhmd elbadry",
