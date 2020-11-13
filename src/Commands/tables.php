@@ -153,7 +153,7 @@ $test = '';
         public function index(Request $request)
         {
             $getData = '.$new_name.'::get();
-            return view("",compact($getData)); // return view include view for example view(clients.index)
+            return view("",compact("getData")); // return view include view for example view(clients.index)
 
         }
 
@@ -186,7 +186,7 @@ $test = '';
     public function edit('.$new_name.' '.$id.')
     {
         //
-        return view("",compact('.$id.'));  //return view creat example view(clients.edit)
+        return view("",compact("id"));  //return view creat example view(clients.edit)
     }
 
     public function update(Request $request,'.$new_name.' '.$id.')
